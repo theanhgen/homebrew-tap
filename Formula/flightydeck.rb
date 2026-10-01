@@ -1,8 +1,8 @@
 class Flightydeck < Formula
   desc "Unofficial CLI and MCP server for the Flighty macOS app"
   homepage "https://theanhgen.github.io/flightydeck/"
-  url "https://github.com/theanhgen/flightydeck/releases/download/v0.2.1/flightydeck-0.2.1-macos-universal.tar.gz"
-  sha256 "dfb8b1aa52936ceb55cc5b1029c8f6c4005f0024c18c84ef450ae5df60f5feee"
+  url "https://github.com/theanhgen/flightydeck/releases/download/v0.2.2/flightydeck-0.2.2-macos-universal.tar.gz"
+  sha256 "b7f9ec3c6c01efd7113178524195d8dbe3f1cddbb2094c18c0fb7a5addbf741a"
   license "MIT"
 
   depends_on :macos
