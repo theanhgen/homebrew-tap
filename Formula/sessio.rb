@@ -1,28 +1,28 @@
 class Sessio < Formula
   desc "Find the coding-agent session you left, and pick it back up"
   homepage "https://theanhgen.github.io/sessio/"
-  version "1.5.0"
+  version "1.5.1"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/theanhgen/sessio/releases/download/v1.5.0/sessio-1.5.0-aarch64-apple-darwin.tar.gz"
-      sha256 "7d44deab29e2c4e256aa384854f26225e024e5767e61ca3bb14b96b6dccd387b"
+      url "https://github.com/theanhgen/sessio/releases/download/v1.5.1/sessio-1.5.1-aarch64-apple-darwin.tar.gz"
+      sha256 "280b42a9f019e0bc7ed26be93c971c65d7fcd16800fd41024ffb3786f633bf77"
     end
     on_intel do
-      url "https://github.com/theanhgen/sessio/releases/download/v1.5.0/sessio-1.5.0-x86_64-apple-darwin.tar.gz"
-      sha256 "146ac4056975c50c1f624f47639781960460d264d0e69d385cff050e964ee1f1"
+      url "https://github.com/theanhgen/sessio/releases/download/v1.5.1/sessio-1.5.1-x86_64-apple-darwin.tar.gz"
+      sha256 "8266dafaf6d0acef98b931643fa93e3525976bf25b58146666b7d57333697ebf"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/theanhgen/sessio/releases/download/v1.5.0/sessio-1.5.0-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "5e0906c0944ec35a34f936e9afb6a2a0a5e5a0e9591c78383a5bbe7bcb53b032"
+      url "https://github.com/theanhgen/sessio/releases/download/v1.5.1/sessio-1.5.1-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "ebb5d280293ed6421089abe58531d4d0408b56a032381053eede2695439a8e41"
     end
     on_intel do
-      url "https://github.com/theanhgen/sessio/releases/download/v1.5.0/sessio-1.5.0-x86_64-unknown-linux-musl.tar.gz"
-      sha256 "f0439f587694d1ba1c9bfe7d353d56029547bea80d8efb66754f326591e26cf5"
+      url "https://github.com/theanhgen/sessio/releases/download/v1.5.1/sessio-1.5.1-x86_64-unknown-linux-musl.tar.gz"
+      sha256 "a1d766ce814e6ff3e79c2522826da4e5b01a714eb106918bd4a6e2107bb26ad5"
     end
   end
 
